@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.options {
+    margin-bottom: 20px;
+}
+
+.checkboxes {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.checkboxes label {
+    margin: 0 10px;
+}
+
+.password-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#password {
+    width: 200px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 16px;
+    margin: 0 5px;
+}
+
+.best-practices {
+    font-size: 14px;
+    color: #666;
+}
